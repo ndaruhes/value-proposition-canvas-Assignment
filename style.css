@@ -31,6 +31,14 @@ body {
     font-weight: bold;
 }
 
+#particles-js {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
 .text-pink {
     color: #ff7675;
 }
@@ -77,6 +85,10 @@ body {
 
 .spacing {
     height: 200px
+}
+
+.z-index-1000 {
+    z-index: 1000;
 }
 
 @media screen and (max-width: 768px) {
